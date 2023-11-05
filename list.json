@@ -30,7 +30,8 @@
 			"youtube\\.com\\/(watch\\?v=|shorts\\/)."
 		],
 		"selectors": [
-			"#video-title"
+			"#video-title",
+			"#video-title-link"
 		]
 	}
 ]
