@@ -1,0 +1,36 @@
+[
+	{
+		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)/",
+		"links": [
+			"^https:\\/\\/www\\.youtube\\.com/watch"
+		]
+	},
+	{
+		"url": "stackoverflow\\.com/"
+	},
+	{
+		"url": "ivelt\\.com",
+		"links": [
+			"ve\\.google\\.com",
+			"dropbox\\.com"
+		]
+	},
+	{
+		"url": "youtube\\.com\\/watch\\?(v=.+)?list=",
+		"links": [
+			"youtube\\.com\\/watch\\?(v=.+)?list="
+		],
+		"selectors": [
+			"#wc-endpoint"
+		]
+	},
+	{
+		"url": "youtube\\.com\\/(@|c(hannel)?)[^?/-]",
+		"links": [
+			"youtube\\.com\\/(watch\\?v=|shorts\\/)."
+		],
+		"selectors": [
+			"#video-title"
+		]
+	}
+]
