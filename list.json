@@ -31,7 +31,8 @@
 		],
 		"selectors": [
 			"#video-title",
-			"#video-title-link"
+			"#video-title-link",
+			"a:has(#video-title)"
 		]
 	}
 ]
