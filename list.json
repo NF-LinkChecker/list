@@ -1,12 +1,12 @@
 [
 	{
-		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)/",
+		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)\\/",
 		"links": [
-			"^https:\\/\\/www\\.youtube\\.com/watch"
+			"^https:\\/\\/www\\.youtube\\.com\\/watch"
 		]
 	},
 	{
-		"url": "stackoverflow\\.com/"
+		"url": "stackoverflow\\.com\\/"
 	},
 	{
 		"url": "ivelt\\.com",
