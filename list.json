@@ -14,7 +14,7 @@
 	{
 		"url": "mitmachim\\.top",
 		"selectors": [
-			".post-container .content *:not(.plugin-mentions-user)"
+			".post-container .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *)"
 		]
 	},
 	{
