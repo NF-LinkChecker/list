@@ -12,6 +12,12 @@
 		]
 	},
 	{
+		"url": "mitmachim\\.top",
+		"selectors": [
+			".post-container .content *:not(.plugin-mentions-user)"
+		]
+	}
+	{
 		"url": "youtube\\.com\\/watch\\?(v=.+)?list=",
 		"links": [
 			"youtube\\.com\\/watch\\?(v=.+)?list="
