@@ -6,13 +6,9 @@
 		]
 	},
 	{
-		"url": "stackoverflow\\.com\\/"
-	},
-	{
 		"url": "ivelt\\.com",
-		"links": [
-			"ve\\.google\\.com",
-			"dropbox\\.com"
+		"selectors": [
+			".postbody .content *"
 		]
 	},
 	{
