@@ -20,7 +20,7 @@
 	{
 		"url": "forums\\.dansdeals\\.com",
 		"selectors": [
-			".bbc_link"
+			".postarea .bbc_link"
 		]
 	},
 	{
