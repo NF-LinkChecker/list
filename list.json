@@ -18,6 +18,12 @@
 		]
 	},
 	{
+		"url": "forums\\.dansdeals\\.com",
+		"selectors": [
+			".bbc_link"
+		]
+	},
+	{
 		"url": "youtube\\.com\\/watch\\?(v=.+)?list=",
 		"links": [
 			"youtube\\.com\\/watch\\?(v=.+)?list="
