@@ -1,8 +1,8 @@
 [
 	{
-		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)\\/",
-		"links": [
-			"^https:\\/\\/www\\.youtube\\.com\\/watch"
+		"url": "^https:\\/\\/www\\.prog\\.co\\.il\\/threads\\/",
+		"selectors": [
+			"article.message-body .link--external"
 		]
 	},
 	{
@@ -41,6 +41,12 @@
 			"#video-title",
 			"#video-title-link",
 			"a:has(#video-title)"
+		]
+	},
+	{
+		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)\\/",
+		"links": [
+			"^https:\\/\\/www\\.youtube\\.com\\/watch"
 		]
 	}
 ]
