@@ -6,6 +6,12 @@
 		]
 	},
 	{
+		"url": "tora-forum\\.co\\.il\\/threads\\/",
+		"selectors": [
+			"article.message-body .link--external"
+		]
+	},
+	{
 		"url": "ivelt\\.com",
 		"selectors": [
 			".content .postlink"
