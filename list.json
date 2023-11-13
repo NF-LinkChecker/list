@@ -14,7 +14,7 @@
 	{
 		"url": "ivelt\\.com",
 		"selectors": [
-			".content .postlink:not([href^=https://ivelt.com/])"
+			".content .postlink"
 		]
 	},
 	{
