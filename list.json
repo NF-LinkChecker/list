@@ -20,13 +20,13 @@
 	{
 		"url": "mitmachim\\.top",
 		"selectors": [
-			".post-container .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *,[href^=/])"
+			".post-container .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *)"
 		]
 	},
 		{
 		"url": "parenches\\.ovh",
 		"selectors": [
-			"[component=post] .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *,[href^=/])"
+			"[component=post] .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *,[href*=/assets/])"
 		]
 	},
 	{
