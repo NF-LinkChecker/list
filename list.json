@@ -23,8 +23,14 @@
 			".post-container .content *:not(.plugin-mentions-user)"
 		]
 	},
-		{
+	{
 		"url": "parenches\\.ovh",
+		"selectors": [
+			"[component=post] .content *:not(.plugin-mentions-user)"
+		]
+	},
+	{
+		"url": "https:\\/\\/tchumim\\.com",
 		"selectors": [
 			"[component=post] .content *:not(.plugin-mentions-user)"
 		]
