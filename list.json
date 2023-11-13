@@ -14,19 +14,19 @@
 	{
 		"url": "ivelt\\.com",
 		"selectors": [
-			".content .postlink"
+			".content .postlink:not([href^=/],[href^=https://ivelt.com/])"
 		]
 	},
 	{
 		"url": "mitmachim\\.top",
 		"selectors": [
-			".post-container .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *,[href^=/])"
+			".post-container .content *:not(.plugin-mentions-user,[href^=/])"
 		]
 	},
 		{
 		"url": "parenches\\.ovh",
 		"selectors": [
-			"[component=post] .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *,[href^=/])"
+			"[component=post] .content *:not(.plugin-mentions-user,[href^=/])"
 		]
 	},
 	{
