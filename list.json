@@ -23,6 +23,12 @@
 			".post-container .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *)"
 		]
 	},
+		{
+		"url": "parenches\\.ovh",
+		"selectors": [
+			"[component=post] .content *:not(.plugin-mentions-user,.plugin-mentions-user ~ *)"
+		]
+	},
 	{
 		"url": "forums\\.dansdeals\\.com",
 		"selectors": [
