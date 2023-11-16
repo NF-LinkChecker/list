@@ -1,70 +1,44 @@
 [
 	{
 		"url": "^https:\\/\\/www\\.prog\\.co\\.il\\/threads\\/",
-		"selectors": [
-			"article.message-body .link--external"
-		]
+		"selectors": "article.message-body .link--external"
 	},
 	{
 		"url": "tora-forum\\.co\\.il\\/threads\\/",
-		"selectors": [
-			"article.message-body .link--external"
-		]
+		"selectors": "article.message-body .link--external"
 	},
 	{
 		"url": "ivelt\\.com",
-		"selectors": [
-			".content .postlink"
-		]
+		"selectors": ".content .postlink"
 	},
 	{
 		"url": "mitmachim\\.top",
-		"selectors": [
-			".post-container .content *:not(.plugin-mentions-user)"
-		]
+		"selectors": ".post-container .content *:not(.plugin-mentions-user)"
 	},
 	{
 		"url": "parenches\\.ovh",
-		"selectors": [
-			"[component=post] .content *:not(.plugin-mentions-user)"
-		]
+		"selectors": "[component=post] .content *:not(.plugin-mentions-user)"
 	},
 	{
 		"url": "https:\\/\\/tchumim\\.com",
-		"selectors": [
-			"[component=post] .content *:not(.plugin-mentions-user)"
-		]
+		"selectors": "[component=post] .content *:not(.plugin-mentions-user)"
 	},
 	{
 		"url": "forums\\.dansdeals\\.com",
-		"selectors": [
-			".postarea .bbc_link"
-		]
+		"selectors": ".postarea .bbc_link"
 	},
 	{
 		"url": "youtube\\.com\\/watch\\?(v=.+)?list=",
-		"links": [
-			"youtube\\.com\\/watch\\?(v=.+)?list="
-		],
-		"selectors": [
-			"#wc-endpoint"
-		]
+		"links": "youtube\\.com\\/watch\\?(v=.+)?list=",
+		"selectors": "#wc-endpoint"
 	},
 	{
 		"url": "youtube\\.com\\/(@|c(hannel)?)[^?/-]",
-		"links": [
-			"youtube\\.com\\/(watch\\?v=|shorts\\/)."
-		],
-		"selectors": [
-			"#video-title",
-			"#video-title-link",
-			"a:has(#video-title)"
-		]
+		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/).",
+		"selectors": "#video-title,#video-title-link,a:has(#video-title)"
 	},
 	{
 		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)\\/",
-		"links": [
-			"^https:\\/\\/www\\.youtube\\.com\\/watch"
-		]
+		"links": "^https:\\/\\/www\\.youtube\\.com\\/watch"
 	}
 ]
