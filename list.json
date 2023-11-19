@@ -13,15 +13,15 @@
 	},
 	{
 		"url": "mitmachim\\.top",
-		"selectors": ".post-container .content *:not(.plugin-mentions-user)"
+		"selectors": ".post-container .content a:not(.plugin-mentions-user)"
 	},
 	{
 		"url": "parenches\\.ovh",
-		"selectors": "[component=post] .content *:not(.plugin-mentions-user)"
+		"selectors": "[component=post] .content a:not(.plugin-mentions-user)"
 	},
 	{
 		"url": "https:\\/\\/tchumim\\.com",
-		"selectors": "[component=post] .content *:not(.plugin-mentions-user)"
+		"selectors": "[component=post] .content a:not(.plugin-mentions-user)"
 	},
 	{
 		"url": "forums\\.dansdeals\\.com",
