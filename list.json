@@ -33,6 +33,10 @@
 		"selectors": "#wc-endpoint"
 	},
 	{
+		"url": "youtube\\.com\\/watch\\?(v=.+)",
+		"selectors": ".ytp-ce-covering-overlay"
+	},
+	{
 		"url": "youtube\\.com\\/(@|c(hannel)?)[^?/-]",
 		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/).",
 		"selectors": "#video-title,#video-title-link,a:has(#video-title)"
