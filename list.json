@@ -9,7 +9,7 @@
 	},
 	{
 		"url": "(mitmachim\\.top|parenches\\.ovh|https:\\/\\/tchumim\\.com)",
-		"selectors": "is(.post-container,[component=post]) .content a:not(.plugin-mentions-user,:has(img))"
+		"selectors": ":is(.post-container,[component=post]) .content a:not(.plugin-mentions-user,:has(img))"
 	},
 	{
 		"url": "forums\\.dansdeals\\.com",
