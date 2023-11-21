@@ -8,7 +8,7 @@
 		"selectors": ".content .postlink"
 	},
 	{
-		"url": "mitmachim\\.top|parenches\\.ovh|https:\\/\\/tchumim\\.com",
+		"url": "(mitmachim\\.top|parenches\\.ovh|https:\\/\\/tchumim\\.com)",
 		"selectors": "is(.post-container,[component=post]) .content a:not(.plugin-mentions-user,:has(img))"
 	},
 	{
