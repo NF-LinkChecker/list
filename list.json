@@ -1,10 +1,6 @@
 [
 	{
-		"url": "^https:\\/\\/www\\.prog\\.co\\.il\\/threads\\/",
-		"selectors": "article.message-body .link--external"
-	},
-	{
-		"url": "tora-forum\\.co\\.il\\/threads\\/",
+		"url": "(^https:\\/\\/www\\.prog|tora-forum)\\.co\\.il\\/threads\\/",
 		"selectors": "article.message-body .link--external"
 	},
 	{
@@ -12,16 +8,8 @@
 		"selectors": ".content .postlink"
 	},
 	{
-		"url": "mitmachim\\.top",
-		"selectors": ".post-container .content a:not(.plugin-mentions-user)"
-	},
-	{
-		"url": "parenches\\.ovh",
-		"selectors": "[component=post] .content a:not(.plugin-mentions-user)"
-	},
-	{
-		"url": "https:\\/\\/tchumim\\.com",
-		"selectors": "[component=post] .content a:not(.plugin-mentions-user)"
+		"url": "mitmachim\\.top|parenches\\.ovh|https:\\/\\/tchumim\\.com",
+		"selectors": "is(.post-container,[component=post]) .content a:not(.plugin-mentions-user,:has(img))"
 	},
 	{
 		"url": "forums\\.dansdeals\\.com",
