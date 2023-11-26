@@ -25,7 +25,7 @@
 		"selectors": ".ytp-ce-covering-overlay,.ytp-autonav-endscreen-link-container"
 	},
 	{
-		"url": "youtube\\.com\\/(@|c(hannel)?)[^?/-]",
+		"url": "youtube\\.com\\/(@|c(hannel)?)[^?-]",
 		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/).",
 		"selectors": "#video-title,#video-title-link,a:has(#video-title)"
 	},
