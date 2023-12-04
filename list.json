@@ -4,7 +4,7 @@
 		"selectors": "article.message-body .link--external"
 	},
 	{
-		"url": "ivelt\\.com",
+		"url": "ivelt\\.com|forum\\.yidtish\\.com",
 		"selectors": ".content .postlink"
 	},
 	{
