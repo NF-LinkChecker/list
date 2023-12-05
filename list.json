@@ -22,7 +22,7 @@
 	},
 	{
 		"url": "youtube\\.com\\/watch\\?(v=.+)",
-		"selectors": ".ytp-ce-covering-overlay,.ytp-autonav-endscreen-link-container"
+		"selectors": ".ytp-ce-covering-overlay,.ytp-autonav-endscreen-link-container,.ytd-notification-renderer"
 	},
 	{
 		"url": "youtube\\.com\\/(@|c(hannel)?)[^?-]",
