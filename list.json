@@ -25,6 +25,11 @@
 		"selectors": ".ytp-ce-covering-overlay,.ytp-autonav-endscreen-link-container,.ytd-notification-renderer"
 	},
 	{
+		"url": "youtube\\.com\\/watch\\?(v=.+)",
+		"selectors": "#description .yt-core-attributed-string__link",
+		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/)."
+	},
+	{
 		"url": "youtube\\.com\\/(@|c(hannel)?|user\\/|[^w][^a])[^?-]",
 		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/).",
 		"selectors": "#video-title,#video-title-link,a:has(#video-title)"
