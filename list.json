@@ -37,5 +37,9 @@
 	{
 		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)\\/",
 		"links": "^https:\\/\\/www\\.youtube\\.com\\/watch"
+	},
+	{
+		"URL": "www\\.google\\.com\\/search\\?(.+&)?q=",
+		"selectors": ":is([data-vurl],.g) *"
 	}
 ]
