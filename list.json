@@ -42,6 +42,6 @@
 		"URL": "www\\.google\\.com\\/search\\?(.+&)?q=",
 		"selectors": ":is([data-vurl],.g) :is([aria-label], :has(h3))",
 		"links": "^https?:",
-		"indicatorLocation": 'after'
+		"indicatorLocation": "after"
 	}
 ]
