@@ -5,7 +5,7 @@
 	},
 	{
 		"url": "ivelt\\.com|forum\\.yidtish\\.com",
-		"selectors": ".content .postlink"
+		"selectors": ".content .postlink.elonw"
 	},
 	{
 		"url": "(mitmachim\\.top|parenches\\.ovh|https:\\/\\/tchumim\\.com)",
