@@ -26,7 +26,7 @@
 	},
 	{
 		"url": "youtube\\.com\\/watch\\?(t=\\d+&)?(v=.+)",
-		"selectors": "#description .yt-core-attributed-string__link,.ytd-structured-description-video-lockup-renderert",
+		"selectors": "#description .yt-core-attributed-string__link,.ytd-structured-description-video-lockup-renderer",
 		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/)."
 	},
 	{
