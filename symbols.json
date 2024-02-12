@@ -1,0 +1,96 @@
+[
+  {
+    "blockName": [
+      "deny"
+    ],
+    "symbol": "✘",
+    "color": "red"
+  },
+  {
+    "blockName": [
+      "open"
+    ],
+    "symbol": "✓",
+    "color": "green"
+  },
+  {
+    "blockName": [
+      "special-site"
+    ],
+    "symbol": "✂",
+    "color": "#663399"
+  },
+  {
+    "blockName": [
+      "share-file"
+    ],
+    "requestTag": "file",
+    "symbol": "✋",
+    "color": "orangered"
+  },
+  {
+    "blockName": [
+      "error"
+    ],
+    "symbol": "⚠️",
+    "color": "orange"
+  },
+  {
+    "blockName": [
+      "unknown"
+    ],
+    "requestTag": "site",
+    "symbol": "❔"
+  },
+  {
+    "blockName": [
+      "unknown-video"
+    ],
+    "requestTag": "video",
+    "symbol": "❔"
+  },
+  {
+    "blockName": [
+      "risk-type"
+    ],
+    "requestTag": "file",
+    "symbol": "❔"
+  },
+  {
+    "blockName": [
+      "sector"
+    ],
+    "symbol": "☂️",
+    "color": "aquamarine"
+  },
+  {
+    "blockName": [
+      "blackList",
+      "pre-block",
+      "default-block"
+    ],
+    "symbol": "🕴️",
+    "color": "cadetblue"
+  },
+  {
+    "blockName": [
+      "tags"
+    ],
+    "symbol": "⚙️",
+    "color": "cadetblue"
+  },
+  {
+    "blockName": [
+      "plan-block"
+    ],
+    "symbol": "⛔",
+    "color": "chocolate"
+  },
+  {
+    "blockName": [
+      "indev"
+    ],
+    "symbol": "🚧",
+    "color": "orange"
+  }
+]
