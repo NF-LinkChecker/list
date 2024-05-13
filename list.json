@@ -45,7 +45,7 @@
 		"indicatorLocation": "after"
 	},
 	{
-		"url": "app\\.clickup\\.com\\/t\\/[\w\d]{5,10}",
+		"url": "app\\.clickup\\.com\\/t\\/[\\w\\d]{5,10}",
 		"selectors": ".ql-frame__header-info-row:has(.ql-frame__header-service_youtube)"
 	}
 ]
