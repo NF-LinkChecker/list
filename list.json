@@ -43,7 +43,7 @@
 		"selectors": ":is([data-vurl],.g) :is([aria-label], :has(h3))",
 		"links": "^https?:",
 		"indicatorLocation": "after"
-	}
+	},
 	{
 		"url": "https:\\/\\/app\\.clickup\\.com\\/t\\/[\w\d]{5,10}",
 		"selectors": ".ql-frame__header-info-row:has(.ql-frame__header-service_youtube)"
