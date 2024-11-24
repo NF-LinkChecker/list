@@ -32,7 +32,7 @@
 	{
 		"url": "youtube\\.com\\/((@|c(hannel)?\\/|user\\/)|[^w][^a])",
 		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/).",
-		"selectors": "#video-title,#video-title-link,a:has(#video-title)"
+		"selectors": "#video-title,#video-title-link,a:has(#video-title),ytm-shorts-lockup-view-model a[title]:has(.yt-core-attributed-string)"
 	},
 	{
 		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)\\/",
