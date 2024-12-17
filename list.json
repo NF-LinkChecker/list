@@ -47,5 +47,9 @@
 	{
 		"url": "app\\.clickup\\.com\\/",
 		"selectors": ".ql-frame__header-info-row:has(.ql-frame__header-service_youtube)"
+	},
+	{
+		"url": "www\\.reddit\\.com\\/r\\/\\w+\\/comments\\/",
+		"selectors": "div[slot=comment] [target=_blank]"
 	}
 ]
