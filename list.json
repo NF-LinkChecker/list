@@ -1,6 +1,6 @@
 [
 	{
-		"url": "(^https:\\/\\/www\\.prog|tora-forum)\\.co\\.il\\/threads\\/",
+		"url": "(^https:\\/\\/www\\.prog\\.co\\.il|tora-forum\\.co\\.il|forum\\.tavlah\\.com)\\/threads\\/",
 		"selectors": "article.message-body .link--external"
 	},
 	{
