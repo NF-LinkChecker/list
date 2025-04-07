@@ -30,7 +30,7 @@
 		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/)."
 	},
 	{
-		"url": "youtube\\.com\\/((@|c(hannel)?\\/|user\\/)|[^w][^a])",
+		"url": "youtube\\.com\\/((@|c(hannel)?\\/|user\\/)|(?!watch)\\w{2})",
 		"links":"youtube\\.com\\/(watch\\?v=|shorts\\/).",
 		"selectors": "#video-title,#video-title-link,a:has(#video-title),ytm-shorts-lockup-view-model a[title]:has(.yt-core-attributed-string)"
 	},
