@@ -36,7 +36,8 @@
 	},
 	{
 		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)\\/",
-		"links": "^https:\\/\\/www\\.youtube\\.com\\/watch"
+		"links": "socialblade\\.com\\/youtube\\/handle\\/[\w-]+\\/videos\\/([\w-]{11})",
+		"replace": "https://www.youtube.com/watch?v=$1"
 	},
 	{
 		"url": "www\\.google\\.com\\/search\\?(.+&)?q=",
