@@ -35,8 +35,8 @@
 		"selectors": "#video-title,#video-title-link,a:has(#video-title),ytm-shorts-lockup-view-model a[title]:has(.yt-core-attributed-string)"
 	},
 	{
-		"url": "socialblade\\.com\\/youtube\\/(c(hannel)?|user)\\/",
-		"links": "socialblade\\.com\\/youtube\\/handle\\/[\w-]+\\/videos\\/([\w-]{11})",
+		"url": "socialblade\\.com\\/youtube\\/handle\\/[\\w-]+\\/videos",
+		"links": "socialblade\\.com\\/youtube\\/handle\\/[\\w-]+\\/videos\\/([\\w-]{11})",
 		"replace": "https://www.youtube.com/watch?v=$1"
 	},
 	{
