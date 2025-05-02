@@ -37,7 +37,7 @@
 	{
 		"url": "socialblade\\.com\\/youtube\\/handle\\/[\\w-]+\\/videos",
 		"links": "socialblade\\.com\\/youtube\\/handle\\/[\\w-]+\\/videos\\/([\\w-]{11})",
-		"replace": "youtube.com/watch?v=$1"
+		"replace": "www.youtube.com/watch?v=$1"
 	},
 	{
 		"url": "www\\.google\\.com\\/search\\?(.+&)?q=",
